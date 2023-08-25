@@ -1,0 +1,124 @@
+@charset "UTF-8";
+	.sectionjoin{
+	width: 1200px; 
+	margin: 0px auto; 
+	padding: 50px;
+	position: relative;
+	}
+	
+	h2{
+	display: inline-block;
+	margin-left:1px;
+	font-size: 35px; 
+	margin-bottom: -30px;
+	}
+	
+	hr{width: 800px; margin-top: -50px;}
+	
+	.divsize{
+	font-size: 15px; 
+	margin-left: 700px; 
+	margin-bottom: 10px;}
+	
+	table{
+	width: 800px; 
+	text-align: left; 
+	border-spacing: 0 40px;
+	position: relative; 
+	left: 170px;
+	}
+	
+	td{width:50px;}
+	
+	th{width:50px;}
+	
+	.add{
+	width: 100px; 
+	height: 40px; 
+	margin-bottom: 10px;
+	border:1px solid lightgray;
+	border-radius: 10px;
+	padding-left: 10px;
+	}
+	
+	.button{
+	width: 100px; 
+	height: 41px;
+	border: 1px solid #ff7f50;
+	border-radius: 10px;
+	background-color: #ff7f50;
+	color: white;
+	cursor: pointer;
+	font-size: 15.5px;
+	}
+	
+	.a{
+	margin-top: 5px;
+	color:#fc7321;
+	}
+	
+	.submit{
+	width: 500px; 
+	height: 60px; 
+	margin-top: 30px; 
+	margin-left: -330px;
+	border: 1px solid #ff7f50;
+	border-radius: 10px;
+	background-color: #ff7f50;
+	color: white;
+	cursor: pointer;
+	font-size:20px;
+	}
+	
+	.inputtext{
+	width: 250px; 
+	height: 20px; 
+	border:1px solid lightgray;
+	border-radius: 10px;
+	padding:10px;
+	font-size: 15px;
+	padding:10px;
+	}
+	
+	.inputtext_add{
+	width: 250px; 
+	height: 20px; 
+	border:1px solid lightgray;
+	border-radius: 10px;
+	padding:10px;
+	font-size: 15px;
+	margin-bottom: 10px;
+	}
+	
+	<!--/*Chrome, Safari, Edge, Opera에서의 number 증가,감소 버튼 숨기기*/ -->
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button {
+  	-webkit-appearance: none;
+  	margin: 0;
+	}
+	.jumin{
+	width: 105px; 
+	height: 20px;
+	border:1px solid lightgray;
+	border-radius: 10px;
+	padding:10px;
+	font-size:15px;
+	}
+	
+	.juminback{
+	width: 105px; 
+	height: 20px;
+	border:1px solid lightgray;
+	border-radius: 10px;
+	-webkit-text-security: disc;
+	padding:10px;
+	font-size:15px;
+	}
+	
+	.pwdexception{color: red; font-size: 13px;}
+	
+	.idexception{color: red; font-size: 13px;}	
+	
+	.juminexception{color: red; font-size: 13px;}	
+	
+	.idtrue{color: lightgreen; font-size: 13px;}

@@ -1,0 +1,311 @@
+@charset "UTF-8";
+/*----로그인 페이지 ----*/
+.login_logo {
+	width: 200px;
+	height: 90px;
+}
+
+#login {
+   padding-top:150px;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.buttonDeco {
+    width: 250px;
+    height: 40px;
+    color: white;
+    font-size:15px;
+    background-color: #ff7f50;
+    border-radius: 5px;
+    border:0px;
+    
+}
+.textFocus input {
+    width: 240px;
+    height: 30px;
+    font-size: 16px;
+    color: #111111;
+    border: 0;
+    border: 1px #cccccc solid;
+    margin-top: 10px;
+    padding-left: 8px;
+}
+.textFocus input:focus {
+    border-color:#ff7f50;
+    outline: none;
+    
+}
+.checkbox{
+   padding-top: 10px;
+}
+/*----로그인 페이지 ----*/
+
+
+
+.divSize {
+	width: 1500px;
+
+}
+body{
+   margin: 0px auto;
+}
+
+.misord{
+   width:920px;
+   text-align:right;
+   margin: 0px auto;
+   display: inline-block;
+   margin-left: 230px;
+}
+table{
+   width:1150px;
+   padding-top: 10px;
+   border-spacing:0px;
+}
+th{
+   font-size: 12.9px;
+   border-top: 3px double #ff7f50;
+   border-bottom: 3px double #ff7f50;
+   padding-top: 6px;
+   padding-bottom: 6px;
+
+}
+td{
+	text-align: center;
+	border-bottom: 1px solid #cccccc;
+}
+
+.td{
+   text-align: center;
+   font-size: 12px;
+   padding-top: 9px;
+   padding-bottom: 9px;
+   padding-left :6px;
+   padding-right: 6px;
+   border-bottom: 1px solid #cccccc;
+}
+.page{
+   width: 22px;
+    height: 22px;
+    font-size: 12px;
+    color: black;
+    border: 0;
+    background-color: white;
+    border: 1px #ff7f50 solid;
+    border-radius: 5px;
+    cursor: pointer; 
+    text-align: center;
+}
+.nowPage{
+    width: 22px;
+    height: 22px;
+    background-color:#ff7f50;
+    color:white;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+}
+h1{
+   margin: 0 auto;
+   padding-top:50px;
+   padding-bottom: 30px;
+   color:#ff7f50;
+}
+.searchBox{
+   display: inline-block;
+}
+.seaBtnDeco{
+   width: 45px;
+   height: 26.5px;
+   font-size: 13px;
+   font-weight: 550;
+   color: #ff7f50;
+   background-color: #ffeedd;
+    border: none;
+    border-radius: 5px;
+    padding-bottom: 2.6px;
+    cursor: pointer;
+}
+.longboxBtnDeco{
+   width: 78px;
+   height: 26.5px;
+   font-size: 13px;
+   font-weight: 550;
+   color: #ff7f50;
+   background-color: #ffeedd;
+    border: none;
+    border-radius: 5px;
+    padding-bottom: 2.6px;
+    cursor: pointer;
+}
+.ordBtnDeco{
+   width: 40px;
+   height: 22px;
+   font-size: 11px;
+   color: white;
+    background-color: #ff7f50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ordText{
+   color: #ff7f50;
+}
+.ordTable{
+	font-size: 12px;
+}
+.userTable{
+	font-size: 12px;
+}
+.reviewTable{
+	font-size: 12px;
+}
+.notTable{
+	font-size: 13px;
+}
+.proBtnDeco{
+   width: 40px;
+   height: 22px;
+   font-size: 11px;
+   color: white;
+    background-color: #ff7f50;
+    border: none;
+    border-radius: 5px;
+   margin-bottom: 5px;
+   cursor: pointer;
+
+}
+.productup{
+   width:693px;
+   text-align:right;
+   display: inline-block;
+   margin-left: 230px;
+}
+
+.noticeUpBtn{
+   padding-top:10px;
+   width:1150px;
+   text-align:right;
+   margin: 0px auto;
+   display: inline-block;
+}
+.reBtnDeco{
+   width: 40px;
+   height: 22px;
+   font-size: 11px;
+   color: white;
+    background-color: #ff7f50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+#noticetable{
+   width:800px;
+   padding-top: 10px;
+}
+#noticelist {
+   display: inline-block;
+   margin-left:750px;
+   font-size: 12px;
+}
+#noticetitle{
+	font-weight: 550;
+	font-size:15px;
+	border: 0px;
+	background-color: #ff7f50;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#noticeSub{
+	border-top: 1px solid #ff7f50;
+	border-bottom: 1px solid #ff7f50;
+	font-weight: bold;
+	font-size:15px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#noticecontent{
+	border-bottom:1px solid #ff7f50;
+	font-size: 15px;
+	text-align: left;
+}
+.contentDiv{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left:50px;
+	margin-right: 20px;
+    width: 730px;
+    text-align: left;
+}
+#noticeBtn{
+   border:0px;
+   text-align: right;
+   padding-top: 10px;
+}
+.noticeBtnDeco{
+   width: 40px;
+    height: 30px;
+    color: white;
+    background-color: #ff7f50;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 50px;
+   
+}
+.notDelBtnDeco{
+   width: 40px;
+   height: 22px;
+   font-size: 11px;
+   color: white;
+    background-color: #ff7f50;
+    border: none;
+    border-radius: 5px;
+}
+#thup{
+   width: 60px;
+}
+#searchBox{
+   height: 20px;
+}
+a:link{
+   color:black;
+   text-decoration:none;
+}
+a:visited{
+   color:black;
+   text-decoration:none;
+}
+
+.title_img {
+	width: 100px;
+	height: 100px;
+}
+
+.pageTr{
+   border-bottom: none;
+}
+
+tfoot td {
+	border-bottom: white;
+	padding-top: 5px;
+}
+
+.orderListSearchTable {
+	font-size: 12px;
+}
+
+.userListSearchTable {
+	font-size: 12px;
+}
+
+.reviewListSearchTable {
+	font-size: 12px;
+}
